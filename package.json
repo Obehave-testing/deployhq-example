@@ -1,0 +1,24 @@
+{
+  "name": "deployhq-example",
+  "version": "1.0.0",
+  "description": "Demo showing how to integrate Obehave testing with DeployHQ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obehave-testing/deployhq-example.git"
+  },
+  "author": "Obehave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obehave-testing/deployhq-example/issues"
+  },
+  "homepage": "https://github.com/Obehave-testing/deployhq-example#readme",
+  "dependencies": {
+    "express": "4.14.0",
+    "path": "0.12.7"
+  }
+}
