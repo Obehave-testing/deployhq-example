@@ -1,4 +1,5 @@
 test:
   pre:
-   - npm start:
-     background: true
+    - ./daemon:
+             background: true
+    - npm start
